@@ -1,2 +1,2 @@
-# tazbattler.github.io
+# tazbattler.gq
 Сайт
