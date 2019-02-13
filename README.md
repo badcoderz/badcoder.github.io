@@ -1,2 +1,0 @@
-# tazbattler.gq
-Сайт
