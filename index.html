@@ -8,9 +8,9 @@
 	
 	<style>
 		p {
-			font-size: 36px;
-			margin: 0;
-			letter-spacing: 0px;
+			font-size: 46px;
+			margin: 10;
+			letter-spacing: 3px;
 		}
 
 		@font-face {
@@ -24,12 +24,12 @@
 
 	<canvas width="715" height="974"></canvas>
 
-	<title>B A D C O D E R</title>
+	<title>Q U M E T</title>
 	
 	<script>
 
         ///// magic title changer big wooshies /////
-        var text = ["B", "B A", "B A D", "B A D C", "B A D C O", "B A D C O D", "B A D C O D E", "B A D C O D E R", "B A D C O D E", "B A D C O D", "B A D C O", "B A D C", "B A D", "B A", "B"];
+        var text = ["Q", "Q U", "Q U M", "Q U M E", "Q U M E T", "Q U M E", "Q U M ", "Q U", "Q"];
         var counter = 0;
         var inst = setInterval(change, 850);
 
@@ -42,15 +42,15 @@
         }
     </script>
 		
-	<audio id="audio1" preload loop>
+	<audio id="audio1" autoplay preload loop>
 		<source type="audio/mp3" src="1.mp3">
 	</audio>
 
-	<audio id="audio2" preload loop>
+	<audio id="audio2" autoplay preload loop>
 		<source type="audio/mp3" src="2.mp3">
 	</audio>
 
-	<audio id="audio3" preload loop>
+	<audio id="audio3" autoplay preload loop>
 		<source type="audio/mp3" src="3.mp3">
 	</audio>
 
@@ -82,7 +82,7 @@
 			position: fixed; /* or absolute */
 			top: 50%;
 			left: 50%;
-			line-height: 5px;
+			line-height: 6px;
 			  /* bring your own prefixes */
 			transform: translate(-50%, -50%);
 			    animation: fadein 3s;
@@ -127,14 +127,11 @@
 	
 	<div class="center">
 		<center>
-			<!-- <pre><input type="range" id="value" min="0" max="1" step="0.01"> -->
-
-			<!-- </pre> -->
-			<p>B A D C O D E R</p>
-			<div style="letter-spacing: 1; font-size: 24;">
+			<p>Q U M E T</p>
+			<div style="letter-spacing: 3; font-size: 24;">
 				<div id="center">
 				    <div class="animated fadeInUp">
-						<pre align="middle"><a href="https://steamcommunity.com/id/badcoderz/" target="_blank"><i class="fab fa-steam"></i> <a onclick="alert('badcoder.#4497');"><i class="fab fa-discord"></i> </a><a href="https://vk.com/losstoanna" target="_blank"><i class="fab fa-vk"></i></a></pre>
+						<pre align="middle"><a href="https://steamcommunity.com/id/qumeta/" target="_blank"><i class="fab fa-steam"></i> <a onclick="alert('qumet.#8888');"><i class="fab fa-discord"></i> </a><a href="https://vk.com/losstoanna" target="_blank"><i class="fab fa-vk"></i></a></pre>
 
 						<div id="clockDisplay" class="clockStyle">00:00:00</div>
 
@@ -167,13 +164,13 @@
 		var button = document.getElementById("pp");
 		var range = document.getElementById("value");
 
-		switch(getRandomInt(1, 3)) {
+		switch(getRandomInt(1, 4)) {
 			case 1:
-				var audio = audio3;
+				var audio = audio1;
 				audio.play();
 				break;
 			case 2:
-				var audio = audio1;
+				var audio = audio2;
 				audio.play();
 				break;
 			case 3:
@@ -215,7 +212,7 @@
 
 	<style>
 		html, body {
-		  color: #ffffff;
+		  color: #EEEEEE;
 		}
 		body {
 		  margin: 0;
